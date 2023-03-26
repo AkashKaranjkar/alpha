@@ -1,0 +1,39 @@
+body{
+    background-image: url(./images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#headersection div{
+    display: inline-block;
+}
+#headersection div ul li{
+    display: inline-block;
+}
+#headersection{
+    color: white;
+}
+#headersection div h1{
+    font-size: 22px;
+}
+#headersection div ul li{
+    display: inline-block;
+    font-size: 22px;
+    padding-left: 25px;
+
+}
+#headersection div ul li button{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+}
+#headersection #left{
+    width: 75%;
+
+}
+#headersection div  h1 span{
+    font-weight: 100;
+}

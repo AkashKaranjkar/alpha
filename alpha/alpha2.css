@@ -1,0 +1,226 @@
+body{
+    background-image: url(./images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #f5f5f5;
+}
+#headersection{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#headersection div h1{
+    font-size: 22px;
+}
+#headersection div ul li button{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+}
+#headersection div  h1 span{
+    font-weight: 100;
+}
+#headersection div ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style-type: none;
+}
+#bodysection{
+    text-align: center;
+    color: white;
+    margin-top: 102px;
+}
+#bodysection h1{
+    font-size: 60px;
+    font-weight: 200;
+    margin-bottom: 5px;
+}
+#bodysection p{
+    font-size: 25px;
+}
+#bodysection button{
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #ffffff#fff;
+  border: none;
+  color: #7379a4;
+  margin-right: 20px;
+}
+#bodysection #learn{
+    background-color: transparent;
+    color: white;
+    border: 2px solid #b6b8b8;
+}
+#contentsection{
+    background-color: white;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    border-radius: 5px;
+    padding-top: 40px;
+    color: #757575;
+    margin-top: 200px;
+}
+#contentsection h1{
+    font-size: 40px;
+}
+#contentsection p{
+    border-top: 1px solid #aebaca;
+    width: 65%;
+    margin: auto;
+    font-size: 21px;
+    padding-top: 25px;
+    padding-bottom: 60px;
+}
+#contentsection img{
+    width: 100%;
+}
+#iconsection{
+    width: 70%;
+    margin: auto;
+    background-color: white;
+    border-radius: 5px;
+    color: #676767;
+    margin-top: 25px;
+}
+#iconsection div{
+    width: 49%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 40px;
+}
+#iconsection div h1{
+    font-size: 25px;
+}
+#iconsection p{
+    font-size: 17px;
+}
+.fa.fa-bolt{
+    font-size: 40px;
+    background-color: #e89980 ;
+    color: white;
+    border-radius: 100%;
+    padding: 20px 30px;
+
+}
+.fa.fa-area-chart{
+    font-size: 35px;
+    background-color: #7fcdb8;
+    color: white;
+    border-radius: 100%;
+    padding: 20px 21px;
+}
+.fa.fa-cloud{
+    font-size: 35px;
+    background-color: #90b0ba;
+    color: white;
+    border-radius: 100%;
+    padding: 20px 21px;
+}
+.fa.fa-lock{
+    font-size: 35px;
+    background-color: #e5cb95;
+    color: white;
+    border-radius: 100%;
+    padding: 20px 27px;
+}
+#iconsection #div1{
+    border-right: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    position: relative;
+    left: 3px;
+}
+
+#iconsection #div4{
+    border-top: 1px solid #e5e5e5;
+    border-left: 1px solid #e5e5e5;
+    position: relative;
+    bottom: 1px;
+
+}
+#imagesection{
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+    color: #676767;
+}
+#imagesection div{
+    display: inline-block;
+    width: 48%;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+#imagesection div img{
+    width: 100%;
+}
+#imagesection div button{
+    height: 50px;
+    width: 100px;
+    background-color: white;
+    color: #676767;
+    border: 2px solid #e5e5e5;
+    border-radius: 5px;
+    margin-top: 50px;
+
+}
+#imagesection #div6{
+    margin-left: 38px;
+
+}
+#signupsection{
+    background-color: #e89980;
+    width: auto;
+    margin-top:  50px; 
+    padding-top: 50px;
+    padding-bottom: 50px;
+   
+    text-align: center;
+    color: white ;
+}
+#signupsection div h1{
+    font-size: 40px;
+}
+
+#signupsection p{
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+#signupsection input{
+    background-color:#eba893;
+    color: #f8e1d2;
+    height: 32px;
+    border: transparent;
+    margin-left: 30px;
+}
+
+#signupsection button{
+    background-color: #ffffff;
+    color: #eaa7a3;
+    border: transparent;
+    height: 30px;
+   
+}
+::placeholder{
+    color: white;
+}
+#footer{
+    text-align: center;
+    margin-top: 20px;
+}
+#footer #div8{
+  font-size: 35px;
+}
+#footer #div9{
+    font-size: 14px;
+}
+
+
+
